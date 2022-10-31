@@ -4,7 +4,7 @@ public class RunningAverage {
         // Instance Variables
         Scanner s = new Scanner(System.in);
         int total = 0;
-        int userInput = 0;
+        int userInput;
         int sum = 0;
 
         System.out.print("Enter a number (or -1 to quit): ");
